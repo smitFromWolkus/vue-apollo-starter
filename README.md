@@ -10,3 +10,7 @@ npm install
 npm start
 ```
 
+### For Apollo Studio open this url in browser
+```
+http://localhost:4000/
+```
