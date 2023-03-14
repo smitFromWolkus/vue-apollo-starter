@@ -173,9 +173,7 @@ const server = new ApolloServer({
 })
 
 mongoose
-  .connect(
-    'mongodb+srv://smitDB:7qa9wtpxyiH1kCjT@cluster0.vllkyx4.mongodb.net/todo?retryWrites=true&w=majority'
-  )
+  .connect(url)
   .then((result) => {
     console.log(result)
     server.listen().then(({ url }) => {
